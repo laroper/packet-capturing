@@ -306,11 +306,12 @@ reading from file capture.pcap, link-type EN10MB (Ethernet)
 ```
 
 ## SUMMARY 
-This project highlighted the practical experience I gained to:
-+ identify network interfaces,
-+ use the `tcpdump` command to capture network data for inspection,
-+ interpret the information that `tcpdump` outputs regarding a packet, and
-+ save and load packet data for later analysis.
+> [!IMPORTANT]
+> This project highlighted the practical experience I gained to:
+> + identify network interfaces,
+> + use the `tcpdump` command to capture network data for inspection,
+> + interpret the information that `tcpdump` outputs regarding a packet, and
+> + save and load packet data for later analysis.
 
 
 
