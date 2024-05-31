@@ -70,7 +70,7 @@ Lets identify some of the properties that `tcpdump` outputs from the packet capt
 `16:37:16.647596 IP`
 3. The verbose option, -v, has provided more details about the IP packet fields, such as TOS, TTL, offset, flags, internal protocol type (in this case, TCP (6)), and the length of the outer IP packet in bytes:
 `(tos 0x0, ttl 64, id 19241, offset 0, flags [DF], proto TCP (6), length 119)`
-These fields are properties that relate to the IP network packet. For details on these visit <a href='https://www.tcpdump.org/manpages/tcpdump.1.html#lbAL'>IPv4 Packets</a>
+These fields are properties that relate to the IP network packet. For details on these visit <a href="https://www.tcpdump.org/manpages/tcpdump.1.html#lbAL" target="_blank">IPv4 Packets</a>
 5. In the next section, the data shows the systems that are communicating with each other:
 7acb26dc1f44.5000 > nginx-us-east1-c.c.qwiklabs-terminal-vms-prod-00.internal.59788:
 By default, tcpdump will convert IP addresses into names, as in the screenshot. The name of your Linux virtual machine, also included in the command prompt, appears here as the source for one packet and the destination for the second packet. In your live data, the name will be a different set of letters and numbers.
