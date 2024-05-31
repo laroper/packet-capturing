@@ -35,3 +35,35 @@ The command returns the following output:
 5.nfqueue (Linux netfilter queue (NFQUEUE) interface)
 
 ```
+## Task 2. Inspect the network traffic of a network interface with tcpdump
+Using `tcpdump` to filter live network packet traffic on the `eth0` interface.
+`sudo tcpdump -i eth0 -v -c5`
+This command will run tcpdump with the following options:
+·	-i eth0: Capture data specifically from the eth0 interface.
+·	-v: Display detailed packet data.
+·	-c5: Capture 5 packets of data.
+Now, let's take a detailed look at the packet information that this command has returned
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
