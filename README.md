@@ -1,5 +1,5 @@
 # Packet Capturing using tcpdump
-**Description:** I performed tasks associated with using tcpdump to capture network traffic on a linux vitual machine. I capture the data in a packet capture (p-cap) file and then examine the contents of the captured packet data to focus on specific types of traffic.
+**Description:** I performed tasks associated with using tcpdump to capture network traffic on a Linux virtual machine. I capture the data in a packet capture (p-cap) file and then examine the contents of the captured packet data to focus on specific types of traffic.
 
 ## Task 1. Identify network interfaces
 1. Use `ifconfig` to identify the interfaces that are available:
